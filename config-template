@@ -1,0 +1,27 @@
+# Edit and rename the configuration template to `config`
+
+
+# central location for packages
+PACKAGE_ROOT_DIR="$HOME/sipit"
+
+# path to the pyhton virtual environment activation binary
+VIRTUALENV_PATH="$HOME/..../venv/bin/activate"
+
+# pas organization name
+ORGANIZATION=""
+
+# pas contract id
+CONTRACT_ID=""
+
+# rsa private key for signing packages
+SIGN_KEY_PATH="$HOME/..."
+
+# sftp connection config (credentials setup in ssh config)
+PAS_HOST=''
+
+# use ssh-agent to set up a persistent identity
+USE_SSH_AGENT=1
+
+# Await reports before exiting script. This pings the server with
+# multiple sftp calls, and should therefore be used only with ssh-agent
+AWAIT_REPORTS=1
